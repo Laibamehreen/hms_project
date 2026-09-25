@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+hospital-management-system/node_modules/
+
+# Next.js build outputs
+.next/
+hospital-management-system/.next/
+out/
+hospital-management-system/out/
+build/
+hospital-management-system/build/
+
+# Environment files & Secrets
+.env*
+hospital-management-system/.env*
+!.env.example
+!hospital-management-system/.env.example
+
+# Debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

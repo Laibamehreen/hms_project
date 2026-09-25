@@ -1,0 +1,13 @@
+{
+  "name": "hospital-management-system-root",
+  "private": true,
+  "workspaces": [
+    "hospital-management-system"
+  ],
+  "scripts": {
+    "dev": "npm --prefix hospital-management-system run dev",
+    "build": "npm --prefix hospital-management-system run build",
+    "start": "npm --prefix hospital-management-system run start",
+    "lint": "npm --prefix hospital-management-system run lint"
+  }
+}
